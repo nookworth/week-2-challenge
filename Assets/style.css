@@ -92,6 +92,16 @@ footer {
   color: #13293d;
 }
 
+#password-generator {
+  background-image: url('./images/password-generator.png');
+  background-size: cover;
+}
+
+#weather-dashboard {
+  background-image: url('https://github.com/nookworth/weather-dashboard/blob/main/assets/images/Weather-1.jpg?raw=true');
+  background-size: cover;
+}
+
 @media screen and (max-width: 768px) {
   /* Use flex-direction to stack the navbar, sidebar, and body */
   main,
