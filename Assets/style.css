@@ -17,11 +17,11 @@ header {
   color: #d35848;
 }
 
-img {
+/* img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 nav {
   display: flex;
@@ -67,6 +67,10 @@ button {
   height: 200px;
 }
 
+button:hover {
+  box-shadow: #772014;
+}
+
 .big-button {
   width: 100%;
 }
@@ -75,6 +79,7 @@ button {
   display: flex;
   width: 48%;
   margin: 5px;
+  justify-content: center;
 }
 
 .sample-img {
@@ -93,12 +98,22 @@ footer {
 }
 
 #password-generator {
-  background-image: url('./images/password-generator.png');
+  background-image: url("./images/password-generator.png");
   background-size: cover;
 }
 
 #weather-dashboard {
-  background-image: url('https://github.com/nookworth/weather-dashboard/blob/main/assets/images/Weather-1.jpg?raw=true');
+  background-image: url("https://github.com/nookworth/weather-dashboard/blob/main/assets/images/Weather-1.jpg?raw=true");
+  background-size: cover;
+}
+
+#quickflix {
+  background-image: url("./images/Quickflix.jpg");
+  background-size: cover;
+}
+
+#workday-scheduler {
+  background-image: url("./images/workday-scheduler.jpg");
   background-size: cover;
 }
 
