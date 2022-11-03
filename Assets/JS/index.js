@@ -1,7 +1,7 @@
 const passwordButton = document.getElementById("password-generator");
 const weatherButton = document.getElementById("weather-dashboard");
 const movieButton = document.getElementById("quickflix");
-const workButton = document.getElementById("workday-scheduler");
+const dndButton = document.getElementById("dnd-meetups");
 
 passwordButton.addEventListener("click", function () {
   window
@@ -19,7 +19,7 @@ movieButton.addEventListener("click", function () {
   window.open("https://mich-hales.github.io/QuickFlix/", "_blank").focus();
 });
 
-workButton.addEventListener("click", function () {
+dndButton.addEventListener("click", function () {
   window
     .open("https://frozen-meadow-34344.herokuapp.com/", "_blank")
     .focus();
