@@ -21,6 +21,6 @@ movieButton.addEventListener("click", function () {
 
 workButton.addEventListener("click", function () {
   window
-    .open("https://nookworth.github.io/work-day-scheduler/", "_blank")
+    .open("https://frozen-meadow-34344.herokuapp.com/", "_blank")
     .focus();
 });

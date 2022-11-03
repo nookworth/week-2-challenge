@@ -114,7 +114,7 @@ footer {
 
 #dnd-meetups {
   background-image: url("./images/dnd-listing.jpg");
-  background-size: cover;
+  background-size: 50% auto;
 }
 
 @media screen and (max-width: 768px) {
